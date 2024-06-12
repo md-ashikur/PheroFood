@@ -150,6 +150,35 @@ h1 {
   box-shadow: 0 20px 25px -5px #83a5ff40, 0 8px 10px -6px #83a5ff40;
 }
 
+
+.head-grid{
+  max-width: 470px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.head-card{
+  box-shadow: 0 4px 6px -1px rgba(85, 85, 85, 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+    width: 218px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    border-radius: 15px;
+    padding-bottom: 1.5rem;
+    margin-top: 4rem;
+}
+.head-card img{
+position: absolute;
+top: -15vh;
+width: 270px;
+
+
+}
+
 /* address=============== */
 .addr {
   display: flex;
@@ -340,6 +369,8 @@ footer {
   .section1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+
+
   .addr {
    flex-direction: column;
    height: auto;
