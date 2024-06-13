@@ -495,12 +495,11 @@ padding-left: 0;
     width: 100%;
   }
   .arrow {
-    display: flex;
-    justify-content: space-between;
+    
     position: absolute;
-    top: 35vh;
-    left: 20vw;
-    width: 16%;
+    top: -5vh;
+    left: 50%;
+    width: 10%;
   }
   .subcribe {
     grid-template-columns: repeat(1, minmax(0, 1fr));
